@@ -5,8 +5,10 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+   
     return Scaffold(
-       appBar: AppBar(
+      backgroundColor: Color(0xFFFFD6FF),
+      appBar: AppBar(
         backgroundColor: Color(0xFFC8B6FF),
         title: Text(
           "Welcome, User!",
@@ -21,6 +23,29 @@ class HomePage extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Container(
+                    width: 145,
+                    child: Text(
+                      "Let's Take a Quiz!",
+                      style: TextStyle(
+                        fontSize: 26,
+                        fontWeight: FontWeight.bold,
+                        color: Color(0xFF3D2C8D),
+                      ),
+                    ),
+                  ),
+                  
+                  Image.asset(
+                    'lib/assets/QWUIZO.png',
+                    width: 150,
+                   
+                  ),
+                ],
+              ),
+              SizedBox(height: 20),
               buildButton("Continue where you left off", Icons.play_arrow, Color(0xFFE7C6FF)),
               SizedBox(height: 20),
               Text(
