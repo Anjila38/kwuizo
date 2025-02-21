@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kwuizo/homepage.dart';
+import 'package:kwuizo/pages/homepage.dart';
 
 void main() {
   runApp(const Kwuizo());
@@ -11,7 +11,7 @@ class Kwuizo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home:HomePage(),
+      home: HomePage(),
     );
   }
 }
