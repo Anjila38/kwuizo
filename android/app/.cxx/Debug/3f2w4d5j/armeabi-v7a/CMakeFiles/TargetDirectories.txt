@@ -1,0 +1,2 @@
+C:/Users/Admin/Desktop/flutter/kwuizo/android/app/.cxx/Debug/3f2w4d5j/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/Admin/Desktop/flutter/kwuizo/android/app/.cxx/Debug/3f2w4d5j/armeabi-v7a/CMakeFiles/rebuild_cache.dir

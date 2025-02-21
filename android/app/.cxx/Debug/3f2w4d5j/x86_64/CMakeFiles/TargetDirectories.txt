@@ -1,0 +1,2 @@
+C:/Users/Admin/Desktop/flutter/kwuizo/android/app/.cxx/Debug/3f2w4d5j/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/Admin/Desktop/flutter/kwuizo/android/app/.cxx/Debug/3f2w4d5j/x86_64/CMakeFiles/rebuild_cache.dir
